@@ -1,26 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>David's Cuisine</title>
+    <meta charset="UTF-8">
+    <title>Chef David Obadimeji – Private Dining</title>
     <style>
-        body {
-            background-color: #111;
-            color: white;
-            font-family: Arial, sans-serif;
+        body { margin: 0; font-family: Arial, sans-serif; background: #111; color: white; }
+        header {
+            background: url('hero.jpg') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 0 0 10px black;
+        }
+        header h1 { font-size: 60px; margin: 0; }
+        header p { font-size: 22px; margin-top: 10px; }
+        nav {
+            background: #000;
+            padding: 15px;
             text-align: center;
-            margin-top: 100px;
+            position: sticky;
+            top: 0;
         }
-        h1 {
-            color: #00ffff;
-        }
-        p {
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
             font-size: 18px;
+        }
+        .section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .btn {
+            background: #00ffff;
+            padding: 15px 30px;
+            color: black;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to David Sr's Website</h1>
-    <p>This site is entirely made by Joshua David Jr.</p>
-    <p>Feel free to look at the foods and place an order, as it's appreciated.</p>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="book.html">Book a Date</a>
+    <a href="about.html">About the Chef</a>
+</nav>
+
+<header>
+    <h1>Fine Dining in Your Home</h1>
+    <p>Experience luxury cuisine by Chef David Obadimeji</p>
+    <a class="btn" href="book.html">BOOK A DATE</a>
+</header>
+
+<div class="section">
+    <h2>Private Chef • Palm Beach • Miami • Worldwide</h2>
+    <p>Transform your home into a five‑star restaurant.</p>
+</div>
+
 </body>
 </html>
